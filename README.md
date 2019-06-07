@@ -1,4 +1,11 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# TodoList
+
+## How to create a project
+
+1. Installing node.js from https://nodejs.org/en/
+2. npm install -g create-react-app (https://github.com/facebook/create-react-app)
+3. create-react-app todolist (Note: project name can no longer contain capital letters)
+4. cd todolist
 
 ## Available Scripts
 
