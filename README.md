@@ -53,11 +53,11 @@
 
 ### 你可以克隆此Demo到您本地，以下是运行后的结果.
 
-![Default View](https://github.com/encoreshao/react-todolist/tree/master/public/images/001.png)
+![Default View](https://github.com/encoreshao/react-todolist/blob/master/public/images/001.png)
 
-![Mark as Completed](https://github.com/encoreshao/react-todolist/tree/master/public/images/002.png)
+![Mark as Completed](https://github.com/encoreshao/react-todolist/blob/master/public/images/002.png)
 
-![Add Task](https://github.com/encoreshao/react-todolist/tree/master/public/images/003.png)
+![Add Task](https://github.com/encoreshao/react-todolist/blob/master/public/images/003.png)
 
 ---
 

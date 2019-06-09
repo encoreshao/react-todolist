@@ -28,7 +28,7 @@ class Dialog extends Component {
     return (
       <div className='add-actions'>
         <span>Task</span>
-        <input type='text' ref='myText' placeholder='What do you want to do' />
+        <input type='text' ref='myText' placeholder='Plan the next task' />
         <input type='button' value='Save' onClick={this.handleClick} className='task_save-btn' />
       </div>
     )
