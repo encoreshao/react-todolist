@@ -32,8 +32,8 @@ class ListItem extends Component {
     const item = this.props.item;
 
     const unfinish = {
-      backgroundColor: '#FFFCB5',
-      color: '#DEB872'
+      backgroundColor: '#d5d4b6',
+      color: '#231804'
     }
 
     const finish = {
@@ -43,7 +43,7 @@ class ListItem extends Component {
     }
 
     var itemStyle = item.status === 0 ? unfinish : finish
-    var bgColor = item.status === 0 ? '#FFF' : '#A1EAFB'
+    var bgColor = item.status === 0 ? '#FFF' : '#e1e408'
 
     return (
       <li key={item.id} style={itemStyle}>

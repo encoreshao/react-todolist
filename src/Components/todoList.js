@@ -7,6 +7,7 @@ class TodoList extends Component {
     super(props)
 
     this.state = {
+      finished: 0,
       list: [
       {
         id: 0,
@@ -70,7 +71,7 @@ class TodoList extends Component {
 
   render () {
     return (
-      <div className="contrainer">
+      <div className="container">
         <h1>TodoList</h1>
         <ul>
           {
