@@ -51,11 +51,17 @@
 
 ---
 
-### 你可以克隆此Demo到您本地，以下是运行后的结果.
+## 你可以克隆此Demo到您本地，以下是运行后的结果.
+
+### 默认任务列表
 
 ![Default View](https://github.com/encoreshao/react-todolist/blob/master/public/images/001.png)
 
+### 标记为完成后
+
 ![Mark as Completed](https://github.com/encoreshao/react-todolist/blob/master/public/images/002.png)
+
+### 添加新任务后
 
 ![Add Task](https://github.com/encoreshao/react-todolist/blob/master/public/images/003.png)
 
