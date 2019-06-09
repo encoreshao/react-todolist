@@ -11,24 +11,30 @@
 
 ### 1. 任务存储的数据结构
 
-  - 每个任务都有自己的id，任务名，以及任务的状态，任务的id除了标识任务的唯一性，还可以作为列表项的key值。
-  - 我们都知道在react中使用列表，列表的每一项必须有个key值，这样会使得每个列表项可以快速定位，在执行Diff算法时减少不必要的查询，从而对性能的提升有所帮助。
-
-    list: [
+  - 每个任务都有自己的id，任务名，以及任务的状态，任务的id除了标识任务的唯一性，还可以作为列表项的key值
+  - 我们都知道在react中使用列表，列表的每一项必须有个key值，这样会使得每个列表项可以快速定位
+  ```
+      finished: 0,
+      list: [
       {
         id: 0,
-        name: '早饭',
+        name: 'Eat something',
         status: 0
       }, {
         id: 1,
-        name: '午饭',
+        name: 'Do homework',
         status: 0
       }, {
         id: 2,
-        name: '晚饭',
-        status : 0
+        name: 'Go to shopping',
+        status: 0
+      }, {
+        id: 3,
+        name: 'Back to Shanghai',
+        status: 0
       }
-    ]
+      ]
+   ```
 
 ### 2. 组件的划分
 
